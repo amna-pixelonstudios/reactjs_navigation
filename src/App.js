@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+// component in file
+function Navigation() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <ul>
-          <li><a>Home</a></li>
-          <li><a>About</a></li>
-          <li><a>Contact</a></li>
-          <li><a>Services</a></li>
-          <li><a>Career</a></li>
-        </ul>
-      </header>
-      <div>
-        <h1>Welcome!</h1>
-        <h2>To the React App</h2>
-      </div>
+    <div className="header">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
     </div>
   );
 }
 
-export default App;
+export default Navigation;
+ 
