@@ -20,15 +20,15 @@ function Navigation() {
           <li><Link to="/career">Career</Link></li>
         </ul>
       </div>
-      <Route exact path='/' component={Home} />
-      <Route path='/about' component={About} />
-      <Route path='/contact' component={Contact} />
-      <Route path='/services' component={Services} />
-      <Route path='/career' component={Career} />
+        <Route exact path='/' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/contact' component={Contact} />
+        <Route path='/services' component={Services} />
+        <Route path='/career' component={Career} />
     </BrowserRouter>
   );
 }
-
+ 
 export default Navigation; 
 
  
